@@ -53,8 +53,8 @@ INTERFACES = ["eth0", "wlan0"]
 Whitelisted MAC addresses
 
 WHITELISTED_MACS = {
-    "5c:60:ba:72:d7:6f",  # your local machine
-    "14:a7:2b:74:6e:a2"   # your router
+ "00:00:00:00:00:00",  # Replace with your device's real MAC
+    "aa:bb:cc:dd:ee:ff",  # Replace with another trusted device
 }
 
 Log file names
