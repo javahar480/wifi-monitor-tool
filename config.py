@@ -1,6 +1,6 @@
 WHITELISTED_MACS = {
-    "5c:60:ba:72:d7:6f",  # your current device
-    "aa:bb:cc:dd:ee:ff"   # example known device
+    ",  # your current device
+    ""   # example known device
 }
 
 LOG_FILE = "network_log.txt"
