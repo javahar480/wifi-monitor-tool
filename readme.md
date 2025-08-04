@@ -91,10 +91,11 @@ Use responsibly — monitor only authorized networks.
 
 ---
 
-Let me know if you want:
-- A `LICENSE` file for MIT
-- Help pushing this to GitHub
-- A copy in `.md` file format to download directly
 
+## ⚖️ License
+
+This project is released under the MIT License.  
+You're free to use or modify it **with credit**.  
+If you use it commercially or as a base project, attribution is required.
 
 
