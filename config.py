@@ -1,6 +1,6 @@
 WHITELISTED_MACS = {
-      # your current device
-      # example known device
+"00:00:00:00:00:00",  # Replace with your device's real MAC
+    "aa:bb:cc:dd:ee:ff",  # Replace with another trusted device
 }
 
 LOG_FILE = "network_log.txt"
