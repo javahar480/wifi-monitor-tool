@@ -1,6 +1,6 @@
 WHITELISTED_MACS = {
-    ",  # your current device
-    ""   # example known device
+      # your current device
+      # example known device
 }
 
 LOG_FILE = "network_log.txt"
