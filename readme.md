@@ -1,3 +1,4 @@
+
 # Wi-Fi Monitoring Tool (CLI-Based)
 
 A lightweight, terminal-based Python tool to monitor devices on a local network. Built for companies that need visibility into LAN traffic without the overhead of web dashboards or commercial network monitoring tools.
@@ -36,16 +37,15 @@ wifi_monitor_tool/
 - `psutil`
 - Root privileges (required for packet sniffing)
 
-Install dependencies:
+### Install dependencies:
+
 ```bash
 sudo apt update
 sudo apt install python3-pip net-tools tcpdump
 sudo pip3 install scapy psutil --break-system-packages
 
 🚀 Usage
-
-    Edit config.py:
-
+Edit config.py:
 Network interfaces
 
 INTERFACES = ["eth0", "wlan0"]
@@ -53,7 +53,7 @@ INTERFACES = ["eth0", "wlan0"]
 Whitelisted MAC addresses
 
 WHITELISTED_MACS = {
- "00:00:00:00:00:00",  # Replace with your device's real MAC
+    "00:00:00:00:00:00",  # Replace with your device's real MAC
     "aa:bb:cc:dd:ee:ff",  # Replace with another trusted device
 }
 
@@ -62,11 +62,11 @@ Log file names
 LOG_FILE = "network_log.txt"
 ALERT_LOG = "alerts.txt"
 
-    Run the monitor:
+Run the monitor:
 
 sudo python3 monitor.py
 
-    View logs:
+View logs:
 
 tail -f network_log.txt
 tail -f alerts.txt
@@ -87,15 +87,15 @@ This project is licensed under the MIT License.
 Developed by Ichigo (2025)
 Built with: Python, Scapy, psutil
 Use responsibly — monitor only authorized networks.
+⚖️ License Reminder
+
+This project is released under the MIT License.
+You're free to use or modify it with credit.
+If you use it commercially or as a base project, attribution is required.
 
 
 ---
 
-
-## ⚖️ License
-
-This project is released under the MIT License.  
-You're free to use or modify it **with credit**.  
-If you use it commercially or as a base project, attribution is required.
-
+### 📌 Want this saved as a `README.md` again or ready for LinkedIn formatting?  
+Let me know and I’ll package it for you!
 
