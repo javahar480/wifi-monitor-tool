@@ -428,7 +428,5 @@ You are free to use and modify it, but monitor only authorized networks.
 Developed by Javahar (2025)
 Built with: Python, Scapy, Psutil, Requests, VirusTotal API
 
-yaml
-Copy
-Edit
+
 
